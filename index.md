@@ -4,7 +4,7 @@ title: "Welcome to Madison NLP"
 ---
 
 <div class="hero">
-  <div>
+  <div class="home-intro">
     <h1 class="home-logo-heading mb-3">
       <img
         src="{{ site.baseurl }}/assets/logo/main.png"

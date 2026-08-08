@@ -66,6 +66,12 @@ body {
   .hero { grid-template-columns: 1fr; }
 }
 
+.home-intro {
+  max-width: var(--carousel-max-width);
+  margin: 0 auto;
+  text-align: center;
+}
+
 .home-logo-heading {
   line-height: 1;
   text-align: center;
