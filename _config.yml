@@ -1,0 +1,11 @@
+title: "Madison NLP"
+description: ""
+url: "https://madison-nlp.github.io"
+baseurl: ""  # If publishing from a repo named YOUR_GITHUB_USERNAME.github.io, set baseurl: ""
+
+markdown: kramdown
+
+# Keep it simple: no theme needed since we provide layouts
+plugins: []
+# Optional: make permalinks clean
+permalink: pretty

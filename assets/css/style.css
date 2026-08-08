@@ -1,0 +1,296 @@
+:root {
+  --max-width: 980px;
+  --highlight-color: #b00020; /* deep red */
+}
+
+.page-content {
+  max-width: var(--max-width);
+  padding-top: 1.75rem;
+  padding-bottom: 1.5rem;
+}
+
+.page-title {
+  font-size: 2rem;
+  margin-bottom: 0.25rem;
+}
+
+.page-subtitle {
+  margin-bottom: 0;
+  color: #555;
+}
+
+/* Headings inside page content (not the main page title) */
+.page-content h2 {
+  font-size: 1.4rem;
+  margin-top: 1.75rem;
+  margin-bottom: 0.6rem;
+}
+
+.page-content h3 {
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin-top: 1.4rem;
+  margin-bottom: 0.5rem;
+}
+
+.page-content h4 {
+  font-size: 1.05rem;
+  margin-top: 1.2rem;
+  margin-bottom: 0.4rem;
+}
+
+
+.hero {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1.5rem;
+  align-items: start;
+}
+
+@media (max-width: 900px) {
+  .hero { grid-template-columns: 1fr; }
+}
+
+.card-lite {
+  border: 1px solid rgba(0,0,0,.08);
+  border-radius: 12px;
+  padding: 1rem;
+  background: #fff;
+}
+
+.person {
+  display: grid;
+  grid-template-columns: 92px 1fr;
+  gap: 1rem;
+  padding: 0.75rem 0;
+  border-bottom: 1px solid rgba(0,0,0,.06);
+}
+.person:last-child { border-bottom: none; }
+.person img {
+  width: 92px;
+  height: 92px;
+  object-fit: cover;
+  border-radius: 12px;
+  border: 1px solid rgba(0,0,0,.08);
+}
+.person .meta { color: #555; font-size: 0.95rem; }
+
+.badge-lite {
+  display: inline-block;
+  padding: 0.15rem 0.5rem;
+  border: 1px solid rgba(0,0,0,.12);
+  border-radius: 999px;
+  font-size: 0.8rem;
+  color: #444;
+}
+.badge-lite:hover {
+  background-color: rgba(176, 0, 32, 0.08); /* light red tint */
+  border-color: var(--highlight-color);
+}
+
+
+/* Emphasis / semantic colors */
+.text-accent {
+  color: #0d6efd;   /* blue */
+}
+
+.text-muted-strong {
+  color: #555;
+}
+
+.text-highlight {
+  color: var(--highlight-color);
+  font-weight: 500;
+}
+
+.carousel-frame {
+  max-width: var(--max-width);
+  margin: 1.5rem auto 0 auto;
+  border-radius: 12px;
+  overflow: hidden;
+  border: 1px solid rgba(0,0,0,.08);
+}
+
+.carousel-caption {
+  background: rgba(0,0,0,0.45);
+  border-radius: 10px;
+  padding: 0.4rem 0.6rem;
+  font-size: 0.9rem;
+}
+
+.carousel-img {
+  height: 720px;
+  object-fit: cover;
+}
+
+a {
+  color: var(--highlight-color);
+  text-decoration: none;
+}
+
+a:hover {
+  color: var(--highlight-color);
+  text-decoration: underline;
+}
+
+
+/* Header / navbar color band */
+.navbar {
+  background-color: #9a001b !important;
+  border-bottom: none;
+  box-shadow: 0 1px 0 rgba(0,0,0,0.08);
+}
+
+.navbar .navbar-brand,
+.navbar .nav-link {
+  color: #ffffff !important;
+}
+
+.navbar .nav-link:hover {
+  color: #f5d6d9 !important; /* lighter red/pink hover */
+}
+
+.navbar-toggler {
+  border-color: rgba(255,255,255,0.6);
+}
+
+.navbar-toggler-icon {
+  filter: invert(1);
+}
+
+footer {
+  background-color: var(--highlight-color);
+  color: #ffffff !important;
+  border-top: none !important;
+}
+
+footer * {
+  color: #ffffff !important;
+}
+
+footer a {
+  text-decoration: underline;
+}
+
+footer a:hover {
+  color: #f5d6d9 !important;
+}
+
+/* Two-column people layout */
+.people-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: 2rem;
+}
+
+/* On small screens, fall back to one column */
+@media (max-width: 800px) {
+  .people-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* Remove bottom borders inside grid (optional, looks cleaner) */
+.people-grid .person {
+  border-bottom: none;
+  padding-bottom: 1rem;
+}
+
+.people-grid .person {
+  padding-top: 0.5rem;
+}
+
+.person {
+  align-items: flex-start;
+}
+
+.advisor-row {
+  margin-bottom: 1.5rem;
+}
+
+.advisor-grid {
+  display: grid;
+  grid-template-columns: 140px 1fr;
+  gap: 1.25rem;
+  align-items: start;
+}
+
+.advisor-photo {
+  width: 140px;
+  height: 140px;
+  object-fit: cover;
+  border-radius: 12px;
+  border: 1px solid rgba(0,0,0,.08);
+}
+
+.advisor-name {
+  font-size: 1.25rem;
+  font-weight: 600;
+}
+
+.advisor-row h2 {
+  margin-top: 0;
+}
+
+@media (max-width: 800px) {
+  .advisor-grid {
+    grid-template-columns: 1fr;
+  }
+  .advisor-photo {
+    width: 120px;
+    height: 120px;
+  }
+}
+
+/* Alumni grid */
+.alumni-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+  margin-top: 1rem;
+}
+
+.alumni-card {
+  text-align: center;
+}
+
+.alumni-photo {
+  width: 120px;
+  height: 120px;
+  object-fit: cover;
+  border-radius: 12px;
+  border: 1px solid rgba(0,0,0,.08);
+  margin-bottom: 0.5rem;
+}
+
+.alumni-name {
+  font-weight: 600;
+  margin-bottom: 0.2rem;
+}
+
+.alumni-name a {
+  color: var(--highlight-color);
+  text-decoration: none;
+}
+
+.alumni-name a:hover {
+  text-decoration: underline;
+}
+
+.alumni-role {
+  font-size: 0.9rem;
+  color: #555;
+}
+
+/* Responsive fallbacks */
+@media (max-width: 900px) {
+  .alumni-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 600px) {
+  .alumni-grid {
+    grid-template-columns: 1fr;
+  }
+}
