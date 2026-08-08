@@ -40,7 +40,7 @@ subtitle: ""
 {% endfor %}
 
 
-## Graduate students
+## PhD students
 <div class="people-grid">
 {% for p in site.data.people.students %}
 <div class="person">
@@ -71,10 +71,10 @@ subtitle: ""
 </div>
 
 
-## Alumni
+## Masters and Undergraduate Students
 
 <div class="alumni-grid">
-  {% for a in site.data.people.alumni %}
+  {% for a in site.data.people.masters_undergrads %}
     <div class="alumni-card">
       {% if a.photo and a.photo != "" %}
         <img src="{{ site.baseurl }}/{{ a.photo }}" alt="{{ a.name }}" class="alumni-photo">
@@ -94,3 +94,23 @@ subtitle: ""
     </div>
   {% endfor %}
 </div>
+
+
+## Alumni
+
+<ul class="plain-people-list">
+  {% for a in site.data.people.alumni %}
+    <li>
+      {% if a.website and a.website != "" %}
+        <a href="{{ a.website }}">{{ a.name }}</a>
+      {% else %}
+        {{ a.name }}
+      {% endif %}
+      {% if a.text and a.text != "" %}
+        ({{ a.text }})
+      {% elsif a.role and a.role != "" %}
+        ({{ a.role }})
+      {% endif %}
+    </li>
+  {% endfor %}
+</ul>

@@ -48,7 +48,7 @@ courses.md
 All dynamic content lives in `_data/`.
 
 - `_data/people.yml`
-  - Controls: Faculty, Current students, Alumni
+  - Controls: Faculty, PhD students, Masters and Undergraduate Students, Alumni
   - Update this when: Adding faculty, Adding a student, Moving a student to alumni, Updating role/title/website links/photos
   - Example structure:
     ```
@@ -64,11 +64,16 @@ All dynamic content lives in `_data/`.
         role: "PhD in CS, Fall 2025-"
         photo: "assets/photos/student-a.jpg"
         website: "..."
+
+    masters_undergrads:
+      - name: "Student B"
+        role: "MS in CS"
+        photo: "assets/photos/student-b.jpg"
+        website: "..."
   
     alumni:
       - name: "Alum A"
-        role: "PhD (2024), now Company"
-        photo: "assets/photos/alum-a.jpg"
+        text: "PhD 2020-25, now at Company"
         website: "..."
     ```
 
