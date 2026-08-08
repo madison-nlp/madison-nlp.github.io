@@ -5,7 +5,13 @@ title: "Welcome to Madison NLP"
 
 <div class="hero">
   <div>
-    <h1 class="mb-2">{{ site.title }}</h1>
+    <h1 class="home-logo-heading mb-3">
+      <img
+        src="{{ site.baseurl }}/assets/logo/main.png"
+        alt="{{ site.title }}"
+        class="home-logo"
+      />
+    </h1>
     <p class="lead mb-3">{{ site.description }}</p>
 
     <p>We are a community of faculty and students at the University of Wisconsin–Madison interested in natural language processing, machine learning, and artificial intelligence.</p>

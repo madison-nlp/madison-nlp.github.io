@@ -66,6 +66,16 @@ body {
   .hero { grid-template-columns: 1fr; }
 }
 
+.home-logo-heading {
+  line-height: 1;
+}
+
+.home-logo {
+  display: block;
+  width: min(100%, 420px);
+  height: auto;
+}
+
 .card-lite {
   border: 1px solid rgba(0,0,0,.08);
   border-radius: 12px;
@@ -162,6 +172,12 @@ a:hover {
 .navbar .navbar-brand,
 .navbar .nav-link {
   color: #ffffff !important;
+}
+
+.navbar-logo {
+  display: block;
+  width: auto;
+  height: 40px;
 }
 
 .navbar .nav-link:hover {
