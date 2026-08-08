@@ -27,7 +27,7 @@ title: "Welcome to Madison NLP"
       <div class="carousel-item{% if forloop.first %} active{% endif %}">
         <img
           src="{{ site.baseurl }}/{{ photo.image }}"
-          class="d-block w-80 carousel-img"
+          class="d-block w-100 carousel-img"
           alt="{{ photo.alt | default: photo.caption | default: 'Lab photo' }}"
         />
         {% if photo.caption and photo.caption != "" %}
