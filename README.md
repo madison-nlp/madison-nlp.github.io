@@ -36,7 +36,7 @@ courses.md
 ### Root Files
 - `_config.yml`: Global site configuration. Update this if: Changing domain, updating site title.
 - `assets/css/style.css`: Contains all custom styling. Only edit if changing visual design.
-- `index.md`: Homepage. Contains: Research themes, Carousel.
+- `index.md`: Homepage. Contains: Intro text and Carousel.
 - `people.md`: People page. Contains: Faculty (hero block), Current students (2-column grid), Alumni (3-column grid).
    - Uses data from `_data/people.yml`. Do not hardcode people here.
 - `research.md`: Research overview page.
@@ -73,8 +73,19 @@ All dynamic content lives in `_data/`.
   
     alumni:
       - name: "Alum A"
+        program: "PhD"
         text: "PhD 2020-25, now at Company"
         website: "..."
+    ```
+
+- `_data/carousel.yml`
+  - Controls the homepage carousel images in display order.
+  - The first entry is the starting slide.
+  - Example structure:
+    ```
+    - image: "assets/photos/lab-2024-spring.jpg"
+      caption: "Lab Outing - Spring 2024"
+      alt: "Lab outing in Spring 2024"
     ```
 
 - `assets/photos/`
