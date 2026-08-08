@@ -68,12 +68,14 @@ body {
 
 .home-logo-heading {
   line-height: 1;
+  text-align: center;
 }
 
 .home-logo {
   display: block;
   width: min(100%, 420px);
   height: auto;
+  margin: 0 auto;
 }
 
 .card-lite {
