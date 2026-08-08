@@ -4,6 +4,9 @@ title: "Courses"
 subtitle: ""
 ---
 
+Explore courses offered by the Madison NLP group on natural language processing and deep learning. Course materials from current and past semesters are available below.
+
+
 ### CS 639 Deep Learning for Natural Language Processing
 - [Spring 2026](https://junjiehu.github.io/cs639-spring26/)
 
