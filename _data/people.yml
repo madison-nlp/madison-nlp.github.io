@@ -61,7 +61,17 @@ students:
     photo: "assets/photos/kirti-bhagat.png"
 
 
-masters_undergrads: []
+masters_undergrads:
+  - name: "Xuan Ouyang"
+    role: "BS '26"
+    website: "https://yancyou.github.io/"
+    photo: "assets/photos/smile.jpg"
+
+  - name: "Vaibhav Dhanuka"
+    role: "MS '27"
+    website: "https://www.linkedin.com/in/vaibhav-dhanuka-883435251"
+    photo: "assets/photos/smile.jpg"
+
 
 
 alumni:
@@ -69,6 +79,16 @@ alumni:
     program: "PhD"
     text: "PhD in CS (2021-26), now Senior Research Scientist at Microsoft Research"
     website: "https://tossowski.github.io/website/"
+
+  - name: "Tianyi Xu"
+    program: "BS"
+    text: "BS '26, now PhD Student at Oregon State University"
+    website: "https://tianyi0216.github.io/"
+
+  - name: "Xinchi (Chloe) Liu"
+    program: "MS"
+    text: "MS '26"
+    website: "https://chloeeliu.github.io/"
 
   - name: "Sean Yun-Shiuan Chuang"
     program: "PhD"
