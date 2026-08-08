@@ -69,7 +69,10 @@ body {
 .home-intro {
   max-width: var(--carousel-max-width);
   margin: 0 auto;
-  text-align: center;
+}
+
+.home-intro-text {
+  text-align: justify;
 }
 
 .home-logo-heading {

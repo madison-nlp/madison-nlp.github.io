@@ -12,13 +12,7 @@ title: "Welcome to Madison NLP"
         class="home-logo"
       />
     </h1>
-    <p class="lead mb-3">{{ site.description }}</p>
-
-    <p>We are a community of faculty and students at the University of Wisconsin–Madison interested in natural language processing, machine learning, and artificial intelligence.</p>
-
-    <p>Across our research groups, we explore how machines can understand, generate, and reason with language, and how language technologies can better serve people across different communities, cultures, and applications.</p>
-
-    <p>Madison NLP is a place for collaboration, learning, and exchanging ideas. Explore our members, research, and courses to learn more about what’s happening in NLP at UW–Madison.</p>
+    <p class="home-intro-text">We are a community of faculty and students at the University of Wisconsin-Madison interested in natural language processing, machine learning, and artificial intelligence. Across our research groups, we explore how machines can understand, generate, and reason with language, and how language technologies can better serve people across different communities, cultures, and applications. Madison NLP is a place for collaboration, learning, and exchanging ideas. Explore our members, research, and courses to learn more about what's happening in NLP at UW-Madison.</p>
 
   </div>
 
