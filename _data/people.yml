@@ -42,72 +42,105 @@ students:
     website: "https://ikakkar03.github.io/"
     photo: "assets/photos/ishita-kakkar.jpg"
 
+  - name: "César Guerra-Solano"
+    role: "PhD in CS, Fall 2026-"
+    interests: [ ]
+    website: "https://cgsol.github.io/"
+    photo: "assets/photos/cesar-guerra-solano.png"
+
+  - name: "Kajal Patel"
+    role: "PhD in CS, Fall 2026-"
+    interests: [  ]
+    website: "https://kajalpatel.info/"
+    photo: "assets/photos/kajal-patel.jpg"
+
+  - name: "Kirti Bhagat"
+    role: "PhD in CS, Fall 2026-"
+    interests: [ ]
+    website: "https://kirtibg.github.io/"
+    photo: "assets/photos/kirti-bhagat.png"
+
 
 masters_undergrads: []
 
 
-
 alumni:
   - name: "Tim Ossowski"
+    program: "PhD"
     text: "PhD in CS (2021-26), now Senior Research Scientist at Microsoft Research"
     website: "https://tossowski.github.io/website/"
 
   - name: "Sean Yun-Shiuan Chuang"
+    program: "PhD"
     text: "PhD in cognitive science, advised by Prof Tim Rogers, now Staff AI Research Scientist at PayPal AI"
     website: "https://www.linkedin.com/in/yunshiuanchuang/?locale=en_US"
 
   - name: "Himanshu Chaudhary"
+    program: "MS"
     text: "MS in CS"
     website: "https://www.linkedin.com/in/himanshu-chaudhary-929720147/"
 
   - name: "Tara Bobinac"
+    program: "MS"
     text: "MS in CS"
     website: "https://www.linkedin.com/in/tarabobinac/"
 
   - name: "Karthik Suresh"
+    program: "MS"
     text: "MS in CS"
     website: "https://www.linkedin.com/in/karthik-suresh-3240/"
 
   - name: "Shan Leng"
+    program: "MS"
     text: "MS in Stats, now PhD in BDS at UW-Madison"
     website: "https://www.linkedin.com/in/shan-leng-025206256/"
 
   - name: "Agam Goyal"
+    program: "BS"
     text: "BS in CS, now PhD in CS at UIUC"
     website: "https://agoyal0512.github.io/"
 
   - name: "Samarth Mathur"
+    program: "MS"
     text: "MS in ECE, now software engineer at Supernova Technology"
     website: "https://www.linkedin.com/in/samarth-mathur1/"
 
   - name: "Yuye Jiang"
+    program: "MS"
     text: "MS in CS, now software engineer at Oracle"
     website: "https://www.linkedin.com/in/yuye-jiang-xx/"
 
   - name: "Gowtham Ramesh"
+    program: "MS"
     text: "MS in CS, now applied research scientist at AMD"
     website: "https://www.linkedin.com/in/gowtham1/?originalSubdomain=in"
 
   - name: "Jack Ziyang Cai"
+    program: "BS"
     text: "BS in ECE/Math -> MS in ECE"
     website: "https://www.linkedin.com/in/jackcai1206/"
 
   - name: "Ruixue Lian"
+    program: "PhD"
     text: "PhD in ECE, co-advised w/ Prof. William Sethares, now applied scientist at Amazon AWS"
     website: "https://www.linkedin.com/in/ruixue-lian-918bb6110/"
 
   - name: "Makesh Narsimhan Sreedhar"
+    program: "MS"
     text: "MS in CS, now research engineer at NVIDIA"
     website: "https://scholar.google.com/citations?user=1BGJ0YMAAAAJ&hl=en"
 
   - name: "Shilu He"
+    program: "MS"
     text: "MS in Math, now software engineer at Amazon Alexa"
     website: "https://github.com/Aurora-He"
 
   - name: "Shanchao Liang"
+    program: "BS"
     text: "BS in CS/Math, now PhD in CS at Purdue"
     website: "https://www.linkedin.com/in/shanchao-liang-106480195/"
 
   - name: "Shunchi Zhang"
+    program: "BS"
     text: "Exchange student from XJTU, now MS in CS at JHU"
     website: "https://shunchizhang.github.io/"

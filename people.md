@@ -98,8 +98,13 @@ subtitle: ""
 
 ## Alumni
 
+{% assign alumni_programs = "PhD,MS,BS" | split: "," %}
+{% for program in alumni_programs %}
+{% assign program_alumni = site.data.people.alumni | where: "program", program %}
+{% if program_alumni.size > 0 %}
+### {{ program }}
 <ul class="plain-people-list">
-  {% for a in site.data.people.alumni %}
+  {% for a in program_alumni %}
     <li>
       {% if a.website and a.website != "" %}
         <a href="{{ a.website }}">{{ a.name }}</a>
@@ -114,3 +119,5 @@ subtitle: ""
     </li>
   {% endfor %}
 </ul>
+{% endif %}
+{% endfor %}
