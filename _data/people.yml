@@ -5,6 +5,12 @@ pis:
     photo: "assets/photos/junjie-hu.png"
     website: "https://junjiehu.github.io/"
 
+  - name: "Prof. Ming Jiang"
+    title: "Assistant Professor, Biostatistics and Medical Informatics & The Information School"
+    affiliation: "University of Wisconsin-Madison"
+    photo: "assets/photos/ming-jiang.jpg"
+    website: "https://seleenajm.github.io/"
+
   - name: "Prof. Lucy Li"
     title: "Assistant Professor, Department of Computer Sciences"
     affiliation: "University of Wisconsin-Madison"
